@@ -75,7 +75,7 @@ public class ATM {
           printReceipt();
           anotherChoice();
         } else {
-          pl("You do not have enough funds to withdraw $" + amt + ".00. Please select a smaller amount or cancel.");
+          pl("You do not have enough funds to withdraw $" + amt + ". Please select a smaller amount or cancel.");
           anotherChoice();
         }
       case 2:
